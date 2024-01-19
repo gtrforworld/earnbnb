@@ -17999,21 +17999,16 @@ button.swiper-pagination-bullet {
   background-image: url();
 }
 .ui-state-default .ui-icon {
-  background-image: url("");
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-  background-image: url("");
 }
 .ui-state-active .ui-icon {
-  background-image: url("");
 }
 .ui-state-highlight .ui-icon {
-  background-image: url("");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-  background-image: url("");
 }
 .ui-icon-blank {
   background-position: 16px 16px;
