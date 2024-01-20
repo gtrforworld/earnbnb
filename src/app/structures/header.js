@@ -108,16 +108,16 @@ export default function Header({menu}) {
                                     <div className="nav-logo">
                                         <a href="/"><Image src={IconLogo} width={200} alt="Logo"/></a>
                                     </div>
-                                    <div className="tgmobile__search">
+                                    {/* <div className="tgmobile__search">
                                         <form action="#">
                                             <input type="text" placeholder="Search here..."/>
                                             <button><i className="flaticon-loupe"></i></button>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     <div className="tgmobile__menu-outer">
 
                                     </div>
-                                    <div className="social-links">
+                                    {/* <div className="social-links">
                                         <ul className="list-wrap">
                                             <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                                             <li><a href="#"><i className="fab fa-twitter"></i></a></li>
@@ -125,7 +125,7 @@ export default function Header({menu}) {
                                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                                             <li><a href="#"><i className="fab fa-youtube"></i></a></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </nav>
                             </div>
                             <div className="tgmobile__menu-backdrop"></div>
