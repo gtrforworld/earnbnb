@@ -67,11 +67,12 @@ export default function content () {
         abi: AbiEarn,
         functionName: 'approve',
         onError(error) {
+            console.log("approve error ", error)
             showToast("transaction declined", "error");
             setSubmitForm(false);
         },
         onSuccess(data) {
-            showToast("Successful start investment");
+            showToast("Successful withdraw investment");
             setSubmitForm(false);
         },
         onSettled(data, error) {
