@@ -20,7 +20,11 @@ export async function POST(NextRequest) {
                     var getBonusPerSecond = existingUser[0].total_deposit * (existingUser[0].income_per_day / 100) / 60 / 60 / 24;
                     var oldBonus = existingUser[0].bonus_now;
 
-                    const date1 = new Date(existingUser[0].last_updated_bonus); // Replace this with your target date
+                    var dateFrom = existingUser[0].last_updated_bonus;
+                    if(dateFrom == null) {
+                        dateFrom = existingUser[0].created_at;
+                    }
+                    const date1 = new Date(dateFrom); // Replace this with your target date
                     const currentDate = new Date();
                     var diffSecond = differenceInSeconds(currentDate, date1);
 
