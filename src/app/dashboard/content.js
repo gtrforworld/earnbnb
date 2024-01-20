@@ -69,6 +69,7 @@ export default function content () {
         onError(error) {
             console.log("approve error ", error)
             showToast("transaction declined", "error");
+            showToast("make sure you have enough balance min 0.01 BNB ", "error");
             setSubmitForm(false);
         },
         onSuccess(data) {
