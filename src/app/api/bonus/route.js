@@ -59,6 +59,7 @@ export async function POST(NextRequest) {
                         }
                     }
 
+                    var currentDate = new Date();
                     currentDate.setDate(currentDate.getDate() + addDays);
                     const nextOpenDate = format(currentDate, 'yyyy-MM-dd HH:mm:ss');
 
