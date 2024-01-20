@@ -50,7 +50,7 @@ export default function Header({menu}) {
         } catch (error) {
           // Handle errors
           console.error('API Error:', error);
-          showToast('Operation failed!', 'error');
+          showToast('Reload Pages!', 'error');
           //   throw error;
         }
     };
